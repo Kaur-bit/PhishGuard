@@ -26,13 +26,13 @@ Brand name spoofing (character substitution)
 Generic greetings
 
 AI Engine via Claude API (60% weight)
-Sends the email to Claude for contextual analysis — catches nuanced threats that simple pattern matching would miss and returns structured findings with severity ratings.
+Sends the email to Claude for contextual analysis catches nuanced threats that simple pattern matching would miss and returns structured findings with severity ratings.
 
 Security Features
 
-Input sanitization — strips all HTML tags and JavaScript before processing
-Prompt injection protection — user-supplied email content is wrapped in hard delimiters and the AI is explicitly instructed to treat all content as untrusted data, not instructions
-Character limits — enforced on all inputs to prevent abuse
+Input sanitization : strips all HTML tags and JavaScript before processing
+Prompt injection protection : user-supplied email content is wrapped in hard delimiters and the AI is explicitly instructed to treat all content as untrusted data, not instructions
+Character limits : enforced on all inputs to prevent abuse
 
 
 Tech Stack
@@ -45,4 +45,4 @@ Vanilla CSS with CSS custom propertie
 <img width="402" height="412" alt="image" src="https://github.com/user-attachments/assets/3e14ff26-3a86-4917-9ba2-770aab7a55fb" />
 
 
-AI-powered phishing email analyzer built with React and Claude API, combines rule-based pattern detection with live AI analysis to score and break down suspicious email
+_AI-powered phishing email analyzer built with React and Claude API, combines rule-based pattern detection with live AI analysis to score and break down suspicious email_
